@@ -2,9 +2,12 @@
 
 A free desktop app that helps you plan your savings and retirement. No spreadsheet, no sign-up — just fill in your numbers and see the results.
 
-It has two calculators:
-- **Future Value** — "If I save this much, with this interest rate, for this many years, how much will I have?" Also shows a growth chart and a year-by-year (or month-by-month) breakdown table.
+It has three calculators:
+- **Future Value** — "If I save this much, with this interest rate, for this many years, how much will I have?"
 - **Target Plan** — "I want to reach a specific amount — how much do I need to save each month?"
+- **Retirement Drawdown** — "Once I retire and start spending my savings, how long will the money last?"
+
+Every tab accounts for inflation and shows what your money is actually worth in today's terms, plus a growth chart and a year-by-year (or month-by-month) breakdown table.
 
 ## Quick Start
 
@@ -39,11 +42,13 @@ A window should open. That's it — no setup, no accounts, no configuration.
 
 ## How to use it
 
-**Future Value tab:** enter your starting balance, interest rate, how often it compounds, how long you're investing, and (optionally) how much you'll add regularly. Click **Calculate**. The summary panel shows your projected balance, total interest earned, effective annual rate (APY), overall return, and how long it takes to double your money. Switch between the **Chart** and **Table** view to see the year-by-year (or month-by-month) numbers.
+**Future Value tab:** enter your starting balance, interest rate, how often it compounds, the inflation rate, how long you're investing, and how much you'll add regularly. Click **Calculate**. The summary shows your projected balance (both as a raw number and in today's money), total interest earned, effective annual rate (APY), the real rate after inflation, overall return, and how long it takes to double your money.
 
-**Target Plan tab:** enter your goal amount, current savings, interest rate, and timeframe. Click **Calculate** to see the monthly contribution required to get there.
+**Target Plan tab:** enter your goal amount, current savings, interest rate, and timeframe. Click **Calculate** to see the monthly contribution required to get there — plus what that goal will actually be worth in today's money once you reach it.
 
-Either tab: use **Export to CSV** to save your results to a file, and **View → Toggle Dark Mode** in the menu if you prefer a dark theme.
+**Retirement Drawdown tab:** enter your retirement pot and how much you plan to withdraw each month. Click **Calculate** to see how many years it lasts before running out. It also tells you the *sustainable* withdrawal — the monthly amount you could take forever without ever touching the principal. Use **Use Future Value result** to pull your projected balance straight from the Future Value tab.
+
+Every tab: switch between the **Chart** and **Table** view, toggle **Yearly**/**Monthly** detail, use **Export to CSV** to save your results, and **View → Toggle Dark Mode** in the menu if you prefer a dark theme. The currency you pick applies across all three tabs.
 
 ## Optional: keep things tidy with a virtual environment
 
